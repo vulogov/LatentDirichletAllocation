@@ -2,10 +2,8 @@
 name = "latentdirichletallocation"
 version = "0.1.0"
 edition = "2024"
-
-[dependencies]
-anyhow = "1"
-bm25 = "2.3.2"
-itertools = "0.14.0"
-log = "0.4.29"
-rand = "0.8"
+description = "A Rust implementation of Latent Dirichlet Allocation (LDA) using collapsed Gibbs sampling for topic modeling."
+license-file = "LICENSE"
+repository = "https://github.com/vulogov/LatentDirichletAllocation"
+categories = ["text-processing"]
+keywords = ["sampling", "Latent", "Dirichlet", "Allocation", "topics"]
