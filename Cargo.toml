@@ -7,3 +7,10 @@ license-file = "LICENSE"
 repository = "https://github.com/vulogov/LatentDirichletAllocation"
 categories = ["text-processing"]
 keywords = ["sampling", "Latent", "Dirichlet", "Allocation", "topics"]
+
+[dependencies]
+anyhow = "1"
+bm25 = "2.3.2"
+itertools = "0.14.0"
+log = "0.4.29"
+rand = "0.8"
