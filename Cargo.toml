@@ -1,0 +1,11 @@
+[package]
+name = "latentdirichletallocation"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+bm25 = "2.3.2"
+itertools = "0.14.0"
+log = "0.4.29"
+rand = "0.8"
